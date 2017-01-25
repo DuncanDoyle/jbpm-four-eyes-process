@@ -1,0 +1,33 @@
+
+<form id="1574832640">
+<property name="name" value="four-eyes-principle.four-eyes-process-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="loanApplication_applicationId" type="InputText" id="191546079">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;applicationId (loanApplication)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="loanApplication/applicationId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="loanApplication_applicant" type="Subform" id="231610732">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;applicant (loanApplication)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="loanApplication/applicant"/>
+<property name="defaultSubform" value="applicant.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="2" name="loanApplication_amount" type="InputTextBigDecimal" id="1296274846">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;amount (loanApplication)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="loanApplication/amount"/>
+<property name="fieldClass" value="java.math.BigDecimal"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="loanApplication" value="com.redhat.demos.four_eyes_principle.LoanApplication" id="loanApplication"/>
+</form>

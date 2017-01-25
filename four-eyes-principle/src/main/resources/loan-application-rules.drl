@@ -1,0 +1,16 @@
+package com.redhat.demos.foureyesprincipal.rules;
+
+import com.redhat.demos.four_eyes_principle.LoanApplication;
+import com.redhat.demos.four_eyes_principle.FourEyesRequired;
+import java.math.BigDecimal;
+
+rule "requires 4-eyes principal when amount is more than 1 million"
+ruleflow-group "four-eyes-rules"
+when
+    //Can Drools compare BigDecimal like this? Or do we need to use BigDecimal compare?
+    LoanApplication(amount >= new BigDecimal(1000000L));
+    //LoanApplication(amount.compareTo(1000000L)) >= 1);
+then
+    insert(new FourEyesRequired());
+end
+

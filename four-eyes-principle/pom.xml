@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.redhat.demos</groupId>
+  <artifactId>four-eyes-principle</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>kjar</packaging>
+  <name>four-eyes-principle</name>
+  <description>Design pattern example that shows an implementation of the 4-eyes principle. The 4 eyes principle is a pattern in which a (human) task has to be validated or completed by 2 different persons. E.g. when one person approves the request for a loan above 1 million dollars/euros, this approval needs to be validated by a second (different) person.</description>
+  <repositories>
+    <repository>
+      <id>guvnor-m2-repo</id>
+      <name>Guvnor M2 Repo</name>
+      <url>http://localhost:8080/business-central/maven2/</url>
+    </repository>
+  </repositories>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.kie</groupId>
+        <artifactId>kie-maven-plugin</artifactId>
+        <version>6.5.0.Final-redhat-2</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>
