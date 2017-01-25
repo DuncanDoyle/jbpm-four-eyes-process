@@ -1,0 +1,14 @@
+
+<form id="608509950">
+<property name="name" value="approval-task-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="approver" type="InputText" id="477214927">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ActorId (approver)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ActorId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="ActorId" value="java.lang.String" id="approver"/>
+</form>
