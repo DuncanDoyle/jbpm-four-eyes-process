@@ -3,12 +3,5 @@
 <property name="name" value="four-eyes-task-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="approver" type="InputText" id="72515660">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;ExcludedOwnerId (approver)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="ExcludedOwnerId"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
 <dataHolder inputId="ExcludedOwnerId" name="#E9E371" type="basicType" outId="" value="java.lang.String" id="approver"/>
 </form>
